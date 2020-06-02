@@ -43,8 +43,6 @@ links:
     url: /
     external: false
     icon: home
-  #  - title:                     <i class="icon-book"></i> Documentation
-  #    url:                       /documentation
   - title: Categories
     url: /categories
   - title: Tags
@@ -54,16 +52,19 @@ links:
 
 home_links:
   - title: Home
+    icon: home
     url: https://brucellino.github.io
     internal: false
   - title: About
-    url: /about
+    icon: info-circle
+    url: /about/
     internal: true
   - title: Articles
-    url: /articles
+    url: /articles/
     internal: true
+
   - title: Todo
-    url: /writing-list
+    url: /writing-list/
     internal: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
