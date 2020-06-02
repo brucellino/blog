@@ -44,11 +44,11 @@ links:
     external: false
     icon: home
   - title: Categories
-    url: /categories
+    url: categories
   - title: Tags
-    url: /tags
+    url: tags
   - title: Bruce who?
-    url: /about
+    url: about
 
 home_links:
   - title: Home
