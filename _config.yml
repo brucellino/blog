@@ -57,15 +57,16 @@ home_links:
     internal: false
   - title: About
     icon: info-circle
-    url: /about/
+    url: about
     internal: true
   - title: Articles
-    url: /articles/
+    url: articles
     internal: true
-
+    icon: file
   - title: Todo
-    url: /writing-list/
+    url: writing-list
     internal: true
+    icon: clipboard-check
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Africa/Johannesburg
