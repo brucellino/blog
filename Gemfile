@@ -37,3 +37,5 @@ gem "github-pages", group: :jekyll_plugins
 # gem "jekyll-mentions"
 # gem "jekyll-paginate"
 # gem "jekyll-redirect-from"
+
+gem "jekyll-bootstrap", "~> 4.0"
