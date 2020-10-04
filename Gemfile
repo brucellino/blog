@@ -1,5 +1,7 @@
-source "https://rubygems.org"
-ruby '2.6.3'
+
+
+source 'https://rubygems.org'
+ruby '2.7.0'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -19,23 +21,15 @@ ruby '2.6.3'
 #- jekyll-redirect-from
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
 # If you have any plugins, put them here!
-# group :jekyll_plugins do
-#    gem "jekyll-github-metadata"
-#    gem "jemoji"
-#    gem "jekyll-sitemap"
-#    gem "jekyll-mentions"
-#    gem "jekyll-paginate"
-#    gem "jekyll-redirect-from"
-# end
-
-# gem "emoji_for_jekyll", "~> 0.2.3"
-# gem "jekyll-github-metadata"
-# gem "jemoji"
-# gem "jekyll-sitemap"
-# gem "jekyll-mentions"
-# gem "jekyll-paginate"
-# gem "jekyll-redirect-from"
-
-gem "jekyll-bootstrap", "~> 4.0"
+group :jekyll_plugins do
+  gem 'emoji_for_jekyll', '~> 0.2.3'
+  gem 'jekyll-bootstrap', '~> 4.0'
+  gem 'jekyll-github-metadata'
+  gem 'jekyll-mentions'
+  gem 'jekyll-paginate'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-sitemap'
+  gem 'jemoji'
+end
