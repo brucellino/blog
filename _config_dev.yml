@@ -1,7 +1,6 @@
 ---
 title: "Bruce Becker be blogging"
 logo: personal-logo.png
-disqus_shortname: brucellino
 # Assign a default image for your site's header and footer
 default_bg: default-bg.png
 share: true
@@ -10,7 +9,6 @@ share: true
 readtime: true
 # Change url to your domain.
 # Leave localhost server or blank when working locally.
-url: http://localhost:4000/
 description: >
   Bruce Becker:
   ex-physicist and volleyball freak;
@@ -80,7 +78,6 @@ permalink: pretty
 plugins:
   - jemoji
   - jekyll-feed
-  - jekyll-paginate
 syntax_highlighter_opts:
   auto_ids: true
   footnote_nr: 1
