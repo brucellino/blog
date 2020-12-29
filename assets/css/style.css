@@ -609,10 +609,7 @@ html {
   display: table;
   z-index: 1;
 }
-#footer .container {
-  position: relative;
-  z-index: 2;
-}
+
 /* ---------------- */
 /* THEME UTILITITES */
 /* ---------------- */
