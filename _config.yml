@@ -77,10 +77,21 @@ paginate: 5
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: pretty
+paginate_path: "blog/page:num"
 plugins:
   - jemoji
   - jekyll-feed
+  - jekyll-relative-links
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
   - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+
 syntax_highlighter_opts:
   auto_ids: true
   footnote_nr: 1
