@@ -3,7 +3,7 @@ title: "Bruce Becker be blogging"
 logo: personal-logo.png
 disqus_shortname: brucellino
 # Assign a default image for your site's header and footer
-default_bg: default-bg.jpg
+default_bg: default-bg.png
 share: true
 # Read Time is a calculator tp provide post read-time based on word count.
 # Usage is recommended.
@@ -75,7 +75,7 @@ paginate: 5
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-#permalink:   /:categories/:date/:title
+# permalink:   /:categories/:date/:title
 permalink: pretty
 plugins:
   - jemoji

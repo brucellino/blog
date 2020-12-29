@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-{% include head.html %}
-</head>
+<head>{% include head.html %}</head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-{% if page.image.feature %}<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.image.feature }})" itemscope itemtype="http://schema.org/Organization">
+{% if page.image.feature %}
+<header id="masthead"
+        class="blog-background overlay align-center align-middle animated from-bottom"
+        style="background-image: url({{ site.url }}/images/{{ page.image.feature }})" itemscope itemtype="http://schema.org/Organization">
 {% else %}
 <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
 {% endif %}
     <div class="inner">
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
-                <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
+                <img itemprop="logo" src="images/{{ site.logo }}" alt="{{ site.title }} Logo" />
             <h1 class="blog-title light" itemprop="name">
                 {{ site.title }}
             </h1>
             </a>
-            <ul class="menu-items nav nav-pills nav-stacked">
+            <ul class="menu-items nav nav-pills nav-stacked nav-justified">
               {% for link in site.home_links %}
-              <li role="presentation">{% if link.internal %}<a href="{{site.url}}/{{ link.url }}" {% else %}<a href="{{ link.url }}" {% endif %}><i class="fa fa-{{ link.icon }}"></i> {{ link.title }}</a></li>
+              <li role="presentation">{% if link.internal %}<a href="{{ site.url }}/{{ link.url }}" {% else %}<a href="{{ link.url }}" {% endif %}><i class="fa fa-{{ link.icon }}"></i> {{ link.title }}</a></li>
               {% endfor %}
             </ul>
         </div>
