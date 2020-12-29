@@ -74,10 +74,10 @@ future: true
 highlighter: rouge
 markdown: kramdown
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:title
+permalink: pretty
 plugins:
   - jemoji
   - jekyll-feed
