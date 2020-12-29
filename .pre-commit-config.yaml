@@ -15,7 +15,6 @@ repos:
       - id: fasterer
       - id: markdownlint # Configure in .mdlrc
       - id: reek
-      - id: require-ascii
       - id: rubocop
       - id: script-must-not-have-extension
       - id: shellcheck
