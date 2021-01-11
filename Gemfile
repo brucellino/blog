@@ -27,4 +27,9 @@ gem 'github-pages', group: :jekyll_plugins
 # group :jekyll_plugins do
 # end
 
-gem 'rubocop', '~> 1.7'
+
+gem "bundler-audit"
+
+gem "fasterer"
+gem "reek"
+gem "jekyll-compose"

@@ -11,11 +11,4 @@ repos:
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: master
     hooks:
-      - id: bundler-audit
-      - id: fasterer
       - id: markdownlint # Configure in .mdlrc
-      - id: reek
-      - id: rubocop
-      - id: script-must-not-have-extension
-      - id: shellcheck
-      - id: shfmt
