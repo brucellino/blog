@@ -7,7 +7,9 @@ image:
   feature: bruce-becker.jpg
 ---
 
-> &quot; Viel Hilft Viel &quot; ><small><cite title="Timm Morten Steinbeck">Timm Morten Steinbeck</cite></small>
+> Viel Hilft Viel
+
+> - Timm Morten Steinbeck
 
 ## Bruce Becker is a real person
 
@@ -17,7 +19,7 @@ Bruce used to be a physicist... kinda. He got a Ph.D. from the University of Cap
 
 So now he like the big shiny stuff.
 
-Well, not even... he refers to big shiny stuff as ' HPC porn' mostly. Cos it kinda is, if you think about it.
+Well, not even... he refers to big shiny stuff as 'HPC porn' mostly. Cos it kinda is, if you think about it.
 
 What really makes him happy is when he sees scientists getting work done in a transparent, sustainable manner. Oh gosh, that sounds a little pompous... oh well, so be it.
 
