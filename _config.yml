@@ -21,7 +21,7 @@ url: https://brucellino.github.io/blog
 owner:
   name: Bruce Becker
   avatar: bruce-becker.jpg
-  email: brucellino@gmail.com
+  email: brucellino@hey.com
   description: >
     Bruce Becker: ex-physicist and volleyball freak;
     quasi socialist;
@@ -80,7 +80,7 @@ permalink: pretty
 plugins:
   - jemoji
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-compose
 syntax_highlighter_opts:
   auto_ids: true
   footnote_nr: 1
