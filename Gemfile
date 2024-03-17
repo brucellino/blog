@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-ruby '2.7.1'
+ruby '3.3.0'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -18,11 +18,11 @@ ruby '2.7.1'
 # gem "html-proofer"
 #- jekyll-sitemap
 #- jekyll-mentions
-gem 'jekyll-paginate-v2'
+gem 'jekyll-paginate-v2', '>= 3.0.0'
 #- jekyll-redirect-from
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', '>= 214', group: :jekyll_plugins
 # If you have any plugins, put them here!
 # group :jekyll_plugins do
 # end
@@ -32,4 +32,6 @@ gem "bundler-audit"
 
 gem "fasterer"
 gem "reek"
-gem "jekyll-compose"
+gem "jekyll-compose", ">= 0.12.0"
+
+gem "webrick", "~> 1.8"
